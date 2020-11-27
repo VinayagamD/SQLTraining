@@ -8,5 +8,3 @@ INSERT INTO student (name, address, phone, age) VALUES
 ('RAMESH', 'GURGAON', '965243543', 18),
 ('SUJIT', 'ROHTAK', '9156263131', 20),
 ('SURESH', 'DELHI', '9156768971', 18);
-
---
