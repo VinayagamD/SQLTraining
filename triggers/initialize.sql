@@ -1,12 +1,12 @@
 CREATE SCHEMA trigger_example;
 USE trigger_example;
 
-CREATE TABLE student(
-    t_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(30),
-    subj1 INT(3),
-    subj2 INT(3),
-    subj3 INT(3),
-    total INT(3),
-    per INT(3)
+DROP TABLE employee;
+
+CREATE TABLE employee(
+  name varchar(45) NOT NULL,
+    occupation varchar(35) NOT NULL,
+    working_date date,
+    working_hours varchar(10)
 );
+
