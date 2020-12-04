@@ -1,0 +1,8 @@
+CREATE SCHEMA desc_eg;
+
+USE desc_eg;
+
+CREATE TABLE one (
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    name CHAR(25)
+);
