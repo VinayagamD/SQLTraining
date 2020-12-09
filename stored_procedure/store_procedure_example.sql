@@ -1,5 +1,18 @@
--- Procedure with no parameters:
 USE stored_procedure_eg;
+/*
+3 Parameters in Procedure
+
+IN Parmater -> Input
+OUT Parmater -> Output
+INOUT Parmater -> InputOutput1
+
+Syntax:
+CREATE PROCEDURE <procedure-name>(<parameter-type> <parametername> <mysql-datatype>)
+BEGIN
+ <procedure-body>
+END;
+*/
+-- Procedure with no parameters:
 
 -- CREATE PROCEDURES DISPLAY BOOK
 
