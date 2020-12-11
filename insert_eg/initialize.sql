@@ -1,0 +1,14 @@
+CREATE SCHEMA insert_eg;
+
+USE insert_eg;
+
+CREATE TABLE students (
+    roll_no INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    age INT NOT NULL
+);
+
+ALTER TABLE students
+ MODIFY COLUMN address VARCHAR(255) NULL,
+ MODIFY COLUMN age VARCHAR(255) NULL;
