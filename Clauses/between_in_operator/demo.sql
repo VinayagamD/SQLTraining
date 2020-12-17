@@ -1,0 +1,5 @@
+USE between_in_eg;
+
+SELECT * FROM employees WHERE salary BETWEEN 20000 AND 60000;
+SELECT * FROM employees WHERE salary IN (38000 , 40000);
+SELECT * FROM data2 WHERE dob BETWEEN '1989-01-01' AND '2000-01-01';
