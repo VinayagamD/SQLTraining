@@ -1,0 +1,12 @@
+CREATE SCHEMA date_eg;
+
+USE date_eg;
+
+CREATE TABLE test (
+    id INT NOT NULL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    birth_time TIMESTAMP NOT NULL
+);
+
+INSERT INTO test VALUES
+(4120, 'Pratik', '1996-09-26 16:44:15.581');
